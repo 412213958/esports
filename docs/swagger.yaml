@@ -1,0 +1,133 @@
+definitions:
+  tools.ECode:
+    properties:
+      code:
+        type: integer
+      data: {}
+      message:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/team/GetPlayerAndTeamData:
+    get:
+      description: 获取选手信息和战队平均游戏数据
+      parameters:
+      - description: ' 值'
+        in: query
+        name: typeSF
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 获取选手信息和战队平均游戏数据
+      tags:
+      - 所有战队成员+具体比赛数据
+  /api/v1/team/getLegacyList:
+    get:
+      description: 获取所有战队的列表
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 获取战队列表
+      tags:
+      - 战队
+  /contest/getContestList:
+    get:
+      description: 获取所有比赛的列表
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 获取比赛列表
+      tags:
+      - 比赛
+  /data/getAllData:
+    get:
+      description: 获取每组包含RecommendCard的一行数据，Contest的两行数据，Video的六行数据
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            allOf:
+            - $ref: '#/definitions/tools.ECode'
+            - properties:
+                data:
+                  additionalProperties: true
+                  type: object
+              type: object
+      summary: 获取专区联合数据
+      tags:
+      - 综合数据
+  /match/getRaceCalendarList:
+    get:
+      description: 获取所有具体比赛日程的列表
+      parameters:
+      - description: TypeSF 值
+        in: query
+        name: typeSF
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 获取具体比赛列表
+      tags:
+      - 所有具体比赛
+  /recommend/getRecommendCardList:
+    get:
+      description: 获取所有的列表
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 获取列表
+      tags:
+      - 推荐卡片
+  /video/getVideoList:
+    get:
+      description: 根据传入的参数 type 和 num 获取指定类别的视频指定数量
+      parameters:
+      - description: 视频类别，如 1:英雄联盟，2:王者荣耀，3:第五人格，4:无畏契约，5:DOTA2
+        in: query
+        name: type
+        required: true
+        type: string
+      - description: 要获取的数量
+        in: query
+        name: num
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/tools.ECode'
+      summary: 根据参数获取指定类别的视频指定数量
+      tags:
+      - 视频
+swagger: "2.0"

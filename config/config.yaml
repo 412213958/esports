@@ -1,0 +1,11 @@
+mysql:
+  host: "192.168.174.151"
+  port: 3306
+  username: "esports"
+  password: "123456"
+  database: "esports"
+
+redis:
+  host: "192.168.174.151"
+  port: 6379
+  password: ""

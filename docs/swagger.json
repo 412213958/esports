@@ -1,0 +1,209 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "contact": {}
+    },
+    "paths": {
+        "/api/v1/team/GetPlayerAndTeamData": {
+            "get": {
+                "description": "获取选手信息和战队平均游戏数据",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "所有战队成员+具体比赛数据"
+                ],
+                "summary": "获取选手信息和战队平均游戏数据",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": " 值",
+                        "name": "typeSF",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/team/getLegacyList": {
+            "get": {
+                "description": "获取所有战队的列表",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "战队"
+                ],
+                "summary": "获取战队列表",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        },
+        "/contest/getContestList": {
+            "get": {
+                "description": "获取所有比赛的列表",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "比赛"
+                ],
+                "summary": "获取比赛列表",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        },
+        "/data/getAllData": {
+            "get": {
+                "description": "获取每组包含RecommendCard的一行数据，Contest的两行数据，Video的六行数据",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "综合数据"
+                ],
+                "summary": "获取专区联合数据",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "allOf": [
+                                {
+                                    "$ref": "#/definitions/tools.ECode"
+                                },
+                                {
+                                    "type": "object",
+                                    "properties": {
+                                        "data": {
+                                            "type": "object",
+                                            "additionalProperties": true
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "/match/getRaceCalendarList": {
+            "get": {
+                "description": "获取所有具体比赛日程的列表",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "所有具体比赛"
+                ],
+                "summary": "获取具体比赛列表",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "TypeSF 值",
+                        "name": "typeSF",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        },
+        "/recommend/getRecommendCardList": {
+            "get": {
+                "description": "获取所有的列表",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "推荐卡片"
+                ],
+                "summary": "获取列表",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        },
+        "/video/getVideoList": {
+            "get": {
+                "description": "根据传入的参数 type 和 num 获取指定类别的视频指定数量",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "视频"
+                ],
+                "summary": "根据参数获取指定类别的视频指定数量",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "视频类别，如 1:英雄联盟，2:王者荣耀，3:第五人格，4:无畏契约，5:DOTA2",
+                        "name": "type",
+                        "in": "query",
+                        "required": true
+                    },
+                    {
+                        "type": "integer",
+                        "description": "要获取的数量",
+                        "name": "num",
+                        "in": "query",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/tools.ECode"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "tools.ECode": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "data": {},
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

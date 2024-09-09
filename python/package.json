@@ -1,0 +1,88 @@
+//"B站"
+{
+  "home_team_name": "BLG",
+  "away_team_name": "TES",
+  "home_team_logo": "/bfs/legacy/2ca4893d7e2f2f85ba22fbd4ce1c2067713df81a.png", "//i1.hdslb.com/bfs/legacy/2ca4893d7e2f2f85ba22fbd4ce1c2067713df81a.png@26w_26h.avif"
+  "away_team_logo": "/bfs/legacy/a1858308f7251261f8d3a97912abcdf39f2152b5.png",
+  "home_score": 3,
+  "away_score": 1,
+  "win_team_id": 2,
+  "game_stage": "决赛",
+  "start_time": 1713603600,
+  "end_time": 1713616731,
+  "children": [
+    {
+      "home_team_name": "BLG",
+      "away_team_name": "TES",
+      "home_team_logo": "/bfs/legacy/2ca4893d7e2f2f85ba22fbd4ce1c2067713df81a.png",
+      "away_team_logo": "/bfs/legacy/a1858308f7251261f8d3a97912abcdf39f2152b5.png",
+      "home_score": 3,
+      "away_score": 2,
+      "win_team_id": 2,
+      "game_stage": "季后赛",
+      "start_time": 1712829600,
+      "end_time": 1712846762,
+      "children": [
+        {
+          "home_team_name": "BLG",
+          "away_team_name": "NIP",
+          "home_team_logo": "/bfs/legacy/2ca4893d7e2f2f85ba22fbd4ce1c2067713df81a.png",
+          "away_team_logo": "/bfs/legacy/c86ac68213687d66a15fd3ff66668e6ba3c17328.png",
+          "home_score": 3,
+          "away_score": 1,
+          "win_team_id": 2,
+          "game_stage": "季后赛",
+          "start_time": 1712397600,
+          "end_time": 1712410368
+        },
+        {
+          "home_team_name": "TES",
+          "away_team_name": "JDG",
+          "home_team_logo": "/bfs/legacy/a1858308f7251261f8d3a97912abcdf39f2152b5.png",
+          "away_team_logo": "/bfs/legacy/1eb01d43ce5069e04ff3df69e949cae2d9929915.png",
+          "home_score": 3,
+          "away_score": 0,
+          "win_team_id": 666,
+          "game_stage": "季后赛",
+          "start_time": 1712484000,
+          "end_time": 1712494510
+        }
+      ]
+    },
+    {
+      "contest_id": 27284,
+      "home_team_id": 13,
+      "away_team_id": 666,
+      "home_team_name": "JDG",
+      "away_team_name": "TES",
+      "home_team_logo": "/bfs/legacy/1eb01d43ce5069e04ff3df69e949cae2d9929915.png",
+      "away_team_logo": "/bfs/legacy/a1858308f7251261f8d3a97912abcdf39f2152b5.png",
+      "home_score": 1,
+      "away_score": 3,
+      "win_team_id": 666,
+      "game_stage": "季后赛",
+      "start_time": 1713088800,
+      "end_time": 1713101661,
+      "children": [
+        {
+          "contest_id": 27282,
+          "home_team_id": 206,
+          "away_team_id": 13,
+          "home_team_name": "NIP",
+          "away_team_name": "JDG",
+          "home_team_logo": "/bfs/legacy/c86ac68213687d66a15fd3ff66668e6ba3c17328.png",
+          "away_team_logo": "/bfs/legacy/1eb01d43ce5069e04ff3df69e949cae2d9929915.png",
+          "home_score": 2,
+          "away_score": 3,
+          "win_team_id": 13,
+          "game_stage": "季后赛",
+          "start_time": 1712743200,
+          "end_time": 1712758611
+        }
+      ]
+    }
+  ]
+}
+
+//联盟官网
+{"1":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"710","GameProcName":"第一天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-07 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11048","bMatchName":"TL vs TES","TeamA":"476","ScoreA":"0","TeamB":"42","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59814","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"720","GameProcName":"第二天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-08 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11049","bMatchName":"GEN vs FNC","TeamA":"137","ScoreA":"3","TeamB":"17","ScoreB":"0","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59835","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"730","GameProcName":"第三天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-09 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11050","bMatchName":"BLG vs PSG","TeamA":"57","ScoreA":"3","TeamB":"702","ScoreB":"2","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59857","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"740","GameProcName":"第四天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-10 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11051","bMatchName":"G2 vs T1","TeamA":"117","ScoreA":"2","TeamB":"692","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59894","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"2":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"750","GameProcName":"第五天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-11 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11053","bMatchName":"TES vs GEN","TeamA":"42","ScoreA":"2","TeamB":"137","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59954","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"760","GameProcName":"第六天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-12 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11055","bMatchName":"BLG vs T1","TeamA":"57","ScoreA":"3","TeamB":"692","ScoreB":"1","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60009","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"3":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"790","GameProcName":"第九天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-16 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11058","bMatchName":"GEN vs BLG","TeamA":"137","ScoreA":"3","TeamB":"57","ScoreB":"1","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60089","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"4":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"890","GameProcName":"决赛","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-19 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11061","bMatchName":"GEN vs BLG","TeamA":"137","ScoreA":"3","TeamB":"57","ScoreB":"1","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60182","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"5":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"800","GameProcName":"第十天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-17 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11059","bMatchName":"G2 vs T1","TeamA":"117","ScoreA":"0","TeamB":"692","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60117","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"810","GameProcName":"第十一天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-18 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11060","bMatchName":"T1 vs BLG","TeamA":"692","ScoreA":"2","TeamB":"57","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60141","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"6":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"780","GameProcName":"第八天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-15 17:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11057","bMatchName":"TL vs T1","TeamA":"476","ScoreA":"1","TeamB":"692","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60064","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"770","GameProcName":"第七天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-14 17:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11056","bMatchName":"G2 vs TES","TeamA":"117","ScoreA":"3","TeamB":"42","ScoreB":"0","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"60042","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":""}],"7":[{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"750","GameProcName":"第五天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-11 12:00:00","MatchStatus":"3","MatchWin":"1","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11052","bMatchName":"TL vs FNC","TeamA":"476","ScoreA":"3","TeamB":"17","ScoreB":"1","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59928","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"},{"GameId":"208","GameName":"2024季中冠军赛","GameProcId":"760","GameProcName":"第六天","GameTypeId":"89","GameTypeName":"胜败分组赛","MatchDate":"2024-05-12 12:00:00","MatchStatus":"3","MatchWin":"2","News1":"","News2":"","News3":"","Chat1":"","Chat2":"","Chat3":"952906541","Video1":"0","Video2":"0","Video3":"952906541","bMatchId":"11054","bMatchName":"PSG vs G2","TeamA":"702","ScoreA":"0","TeamB":"117","ScoreB":"3","bGameId":"","bGameName":"季中冠军赛","iQTMatchId":"0","NewsId":"59987","GameMode":"4","GameModeName":"BO5","is_anchor":"1","anchor_id":"0"}],"fir":{"TeamId":"0","TeamName":""},"sec":{"TeamId":"0","TeamName":""},"trd":{"TeamId":"0","TeamName":""}}
